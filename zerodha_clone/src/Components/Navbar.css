@@ -47,6 +47,10 @@
   .NavbarItems {
     position: relative;
   }
+  .Navbar-logo {
+    justify-self: start;
+    margin-right: 50%;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -54,5 +58,19 @@
     height: 500px;
     position: absolute;
     top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #1a8cff;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    color: white;
+  }
+  .nav-links {
+    color: white;
   }
 }
