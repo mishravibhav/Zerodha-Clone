@@ -1,3 +1,8 @@
-.Navbar {
-
+.Navbar-Items {
+  height: 80px;
+  border-bottom: 2px solid gray;
+}
+.Navbar-logo {
+  height: 70px;
+  width: 200px;
 }
