@@ -7,9 +7,9 @@ const Homepage = ()=>{
             <Navbar/>
             <div className="container__no1broker" >
                 <img className="Banner__No1Broker" src="https://zerodha.com/static/images/landing.png" alt="invest in everything image"></img>
-                
             </div>
-            <h1>Invest in everything</h1>
+            <h1 style={{textAlign:'center'}}>Invest in everything</h1>
+            
         </div>
     )
 }
