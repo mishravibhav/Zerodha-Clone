@@ -17,7 +17,7 @@ class NavBar extends React.Component{
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {Menuitems.map((item,index)=>{
                         return(
-                            <li key={index}><a href={item.url} className={item.cName}>{item.title}</a></li>
+                            <li key={index}><a href={item.to} className={item.cName}>{item.title}</a></li>
                         )
                     })}
                     

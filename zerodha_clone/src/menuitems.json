@@ -1,27 +1,27 @@
 [
     {
         "title":"About",
-        "url":"/about",
+        "to":"/about",
         "cName":"nav-links"
     },
     {
         "title":"Products",
-        "url":"/products",
+        "to":"/products",
         "cName":"nav-links"
     },
     {
         "title":"Pricing",
-        "url":"/pricing",
+        "to":"/pricing",
         "cName":"nav-links"
     },
     {
         "title":"Support",
-        "url":"/support",
+        "to":"/support",
         "cName":"nav-links"
     },
     {
         "title":"Sign up",
-        "url":"/signup",
+        "to":"/signup",
         "cName":"nav-links-button"
     }
 ]

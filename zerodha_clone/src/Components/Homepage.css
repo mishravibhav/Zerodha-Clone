@@ -1,0 +1,11 @@
+.Banner__No1Broker {
+  height: 300px;
+  margin-top: 5%;
+}
+.container__no1broker {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
