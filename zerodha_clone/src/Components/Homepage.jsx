@@ -41,8 +41,10 @@ const Homepage = ()=>{
             </div>
             <div className="Zeroidha_univ">
                 <h1>The Zerodha Universe</h1>
-                <p>A whole ecosystem of modern investment apps <br/> tailored to specific needs, built from the ground up</p>
-                <img src="https://zerodha.com/static/images/ecosystem.png" alt=""/>
+                <p>A whole ecosystem of modern investment apps</p>
+                <p> tailored to specific needs, built from the ground up</p>
+                <img style={{marginTop:"25px"}} src="https://zerodha.com/static/images/ecosystem.png" alt=""/>
+                <p><a style={{textDecoration:"none"}} href="https://zerodha.com/products">Explore our products <i class="fas fa-arrow-right"></i></a></p>
             </div>
            
         </div>
