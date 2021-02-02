@@ -127,3 +127,62 @@
   font-size: 1.25rem;
   font-weight: 400;
 }
+
+.Unbeatable__pricing__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  color: #424242;
+  height: 50vh;
+}
+
+.Unbeatable__pricing__left {
+  width: 35%;
+}
+.Unbeatable__pricing__left > h1 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 0;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.Unbeatable__pricing__left > p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.Unbeatable__pricing__right {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 40px;
+}
+.box {
+  height: 120px;
+  width: 120px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  min-height: 190px;
+  border: 1px solid #ccc;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-left: 0;
+  text-align: center;
+  min-width: 40%;
+  margin-left: 20px;
+}
+
+.box > h1 {
+  margin: 0;
+  line-height: 2;
+  font-size: 2.75rem;
+}
+
+.box > p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}

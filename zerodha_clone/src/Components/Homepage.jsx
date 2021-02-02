@@ -34,7 +34,7 @@ const Homepage = ()=>{
                     </ul>
                     </div>
                     <div className="">
-                        <img src="https://zerodha.com/static/images/press-logos.png" alt=""/>
+                        <img src="https://zerodha.com/static/images/press-logos.png" alt="press_logo"/>
                     </div>
                 </div>
                
@@ -45,6 +45,24 @@ const Homepage = ()=>{
                 <p> tailored to specific needs, built from the ground up</p>
                 <img style={{marginTop:"25px"}} src="https://zerodha.com/static/images/ecosystem.png" alt=""/>
                 <p><a style={{textDecoration:"none"}} href="https://zerodha.com/products">Explore our products <i class="fas fa-arrow-right"></i></a></p>
+            </div>
+
+            <div className="Unbeatable__pricing__container">
+                <div className="Unbeatable__pricing__left">
+                    <h1>Unbeatable pricing</h1>
+                    <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
+                    <p><a href="">See pricing <i class="fas fa-arrow-right"></i></a></p>
+                </div>
+                <div className="Unbeatable__pricing__right">
+                    <div className="box">
+                        <h1>₹0</h1>
+                        <p>Free equity delivery and direct mutual funds</p>
+                    </div>
+                    <div className="box">
+                        <h1>₹20</h1>
+                        <p>Intraday and F&O</p>
+                    </div>
+                </div>
             </div>
            
         </div>
