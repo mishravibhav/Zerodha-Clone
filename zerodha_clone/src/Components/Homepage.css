@@ -39,6 +39,11 @@
   margin-top: 50px;
 }
 
+.button__NO1Broker:hover {
+  color: white;
+  background-color: #424242;
+}
+
 .banner {
   margin-top: 80px;
   text-align: center;
@@ -185,4 +190,86 @@
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 15px;
+}
+.versity__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  color: #424242;
+}
+.versity__container__left {
+  width: 50%;
+}
+.versity__container__right {
+  width: 40%;
+  text-align: left;
+}
+.versity__container__right > h4 {
+  font-size: 1.7rem;
+  margin-top: 0;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.versity__container__right > p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.Links {
+  text-decoration: none;
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Links:hover {
+  color: #424242;
+}
+
+.openAccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.openAccount {
+  color: #424242;
+  height: 40vh;
+}
+
+.openAccount > h1 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.openAccount > p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.openAccount > button {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.1rem;
+  background-color: #1a8cff;
+  border-radius: 5px;
+  padding: 12px 30px 12px 30px;
+  color: white;
+  border: none;
+}
+
+.openAccount > button:hover {
+  background-color: #424242;
+  color: white;
 }
