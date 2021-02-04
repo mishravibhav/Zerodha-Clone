@@ -1,3 +1,26 @@
 .About {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+  text-emphasis: none;
+  color: #424242;
+}
+
+.About__heading {
+  padding: 150px 310px 150px 310px;
+  text-align: center;
+  align-items: center;
+}
+
+.About__para__container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.About__para {
+  width: 40%;
+  padding-left: 100px;
+  padding-top: 100px;
 }
