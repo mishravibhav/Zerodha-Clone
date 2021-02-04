@@ -1,16 +1,12 @@
 import React from 'react'
-import './Footer.css'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import './Product.css'
 
 const Products = ()=>{
     return(
-        <div className="product__container">
-            <Navbar/>
+        <div className="product">
             <div>
-
+                This is Product page
             </div>
-            <Footer/>
         </div>
     )
 }

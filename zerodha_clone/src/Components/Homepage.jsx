@@ -1,11 +1,11 @@
 import React from 'react'
 import './Homepage.css'
-import Navbar from './Navbar'
 import Footer from './Footer'
-const Homepage = ()=>{
+import {Link} from 'react-router-dom'
+
+ const Homepage = ()=>{
     return(
         <div className="container">
-            <Navbar/>
            <div className="banner">
             <div className="container__no1broker" >
                     <img className="Banner__No1Broker" src="https://zerodha.com/static/images/landing.png" alt="invest in everything image"></img>
@@ -45,14 +45,14 @@ const Homepage = ()=>{
                 <p>A whole ecosystem of modern investment apps</p>
                 <p> tailored to specific needs, built from the ground up</p>
                 <img style={{marginTop:"25px"}} src="https://zerodha.com/static/images/ecosystem.png" alt=""/>
-                <p><a  className="Links" href="https://zerodha.com/products">Explore our products <i class="fas fa-arrow-right"></i></a></p>
+                <p><Link  className="Links" to="https://zerodha.com/products">Explore our products <i class="fas fa-arrow-right"></i></Link></p>
             </div>
 
             <div className="Unbeatable__pricing__container">
                 <div className="Unbeatable__pricing__left">
                     <h1>Unbeatable pricing</h1>
                     <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
-                    <p><a href=""  className="Links">See pricing <i class="fas fa-arrow-right"></i></a></p>
+                    <p><Link to="/"  className="Links">See pricing <i class="fas fa-arrow-right"></i></Link></p>
                 </div>
                 <div className="Unbeatable__pricing__right">
                     <div className="box">
@@ -73,10 +73,10 @@ const Homepage = ()=>{
                 <div className="versity__container__right">
                     <h4>Free and open market education</h4>
                     <p>Versity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
-                    <p><a href="" className="Links">Varsity <i class="fas fa-arrow-right"></i></a></p>
+                    <p><Link to="/" className="Links">Varsity <i class="fas fa-arrow-right"></i></Link></p>
 
                     <p>TradingQ&A, the most active trading and investment community in India for all your market related queries.</p>
-                    <p><a href="" className="Links">TradingQ&A <i class="fas fa-arrow-right"></i> </a></p>
+                    <p><Link to="" className="Links">TradingQ&A <i class="fas fa-arrow-right"></i> </Link></p>
               </div>
             </div>
 
@@ -85,7 +85,6 @@ const Homepage = ()=>{
                 <p>Excellent platforms and apps · ₹0 investments and flat ₹20 intraday and F&O trades</p>
                 <button>Sign up now</button>
             </div>
-            <Footer/>
         </div>
     )
 }
